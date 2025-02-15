@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Rincón Solo Nuestro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Reproductor de música -->
+    <audio id="miCancion">
+        <source src="cancion.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Fondo de flores -->
+        <div class="background">
+            <img src="fondo.jpg" alt="Fondo de flores" class="background-image">
+        </div>
+
+        <!-- Botones -->
+        <div class="buttons">
+            <button id="flor1" class="btn">El toque prohibido</button>
+            <button id="flor2" class="btn">Lo que nos hace especiales</button>
+        </div>
+
+        <!-- Imagen con mensaje -->
+        <div id="imagenMensaje" class="hidden">
+            <img src="akire.jpg" alt="Imagen especial" class="image">
+            <p class="mensaje">Tal vez no somos lo que deberíamos ser, tal vez somos un error…<br> pero si esto es equivocarse, qué lindo es perderse contigo.</p>
+            <p class="mensaje">Feliz 14 de febrero. 💫</p>
+
+        </div>
+
+        <!-- Botón para mostrar imagen con mensaje -->
+        <button id="mostrarImagen" class="btn">Ver Mensaje</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
